@@ -1,5 +1,7 @@
 # Trading
  
+**IN MY CODE HAVE A THAT COMMEMT**
+
 In my rep, including
 1) sql database file
 2) .css file
@@ -14,5 +16,7 @@ for testing in your computer
 5) if you want to be *root* using *ID = root & PW = 123*
 
 *This rep is my school project.
+
+*I attached some example website but it's include thai and english language.
 
 *I apologize if there are any errors.
