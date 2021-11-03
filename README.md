@@ -13,6 +13,6 @@ for testing in your computer
 4) use url *localhost/your folder in htdoc for keep all file/home.php
 5) if you want to be *root* using *ID = root & PW = 123*
 
-*This rep is my school project
+*This rep is my school project.
 
 *I apologize if there are any errors.
