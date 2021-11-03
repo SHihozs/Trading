@@ -1,0 +1,60 @@
+body
+{
+	background: url("insertok.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: "Nithan";
+	
+}
+
+.insertokbox /*สี่เหลี่ยม*/
+{
+	width: 320px;
+	height:  200px;
+	background-color: #FFFF99	;
+	color: #000000;
+	top: 50%;
+	left:50%;
+	position: absolute; /*กึ่งกลาง*/
+	transform: translate(-50%,-50%);/*กึ่งกลาง*/
+	box-sizing: border-box;/*บล็อกขนาด*/
+	border-radius: 5%;
+	padding: 10px 40px;/*สูง,กว้าง กล่องข้อความ*/
+	
+}
+
+
+.insertokbox input
+{
+	
+	width: 100%;
+	margin-bottom: 10px;
+	font-family: "Nithan";
+	font-weight: bold;
+	display: block;
+}
+
+.insertokbox input[type="submit"]
+{
+	border:none;
+	outline: none;
+	height: 40px;
+	background: #E9967A;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+	display: block;
+	
+	
+	
+}
+
+.insertokbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #FF9966;
+	color: #000;
+}
+
+

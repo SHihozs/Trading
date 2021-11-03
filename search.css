@@ -1,0 +1,74 @@
+body
+{
+	background: url("search.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: "Nithan";
+	
+}
+
+.searchbox /*สี่เหลี่ยม*/
+{
+	width: 340px;
+	height:  270px;
+	background-color: #FFCC66;
+	color: #fff;
+	top: 50%;
+	left:50%;
+	position: absolute; /*กึ่งกลาง*/
+	transform: translate(-50%,-50%);/*กึ่งกลาง*/
+	box-sizing: border-box;/*บล็อกขนาด*/
+	border-radius: 5%;
+	padding: 0px 40px;/*สูง,กว้าง กล่องข้อความ*/
+	
+}
+
+
+.searchbox input
+{
+	
+	width: 100%;
+	margin-bottom: 10px;
+	font-family: "Nithan";
+	font-weight: bold;
+	display: block;
+}
+
+.searchbox input[type="submit"]
+{
+	border:none;
+	outline: none;
+	height: 40px;
+	background: #FF9900;
+	color: #000000;
+	font-size: 18px;
+	border-radius: 20px;
+	display: block;
+	
+	
+	
+}
+
+.searchbox input[type="text"]
+{
+	border:none;
+	outline: none;
+	height: 40px;
+	background: #ffffff	;
+	color: #000000;
+	font-size: 18px;
+	border-radius: 20px;
+	display: block;
+	
+	
+	
+}
+.searchbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #EEE8AA;
+	color: #000;
+}
+
+

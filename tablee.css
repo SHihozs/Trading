@@ -1,0 +1,132 @@
+body
+{
+	background: url("edit.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: "Nithan";
+}
+
+.editbox
+{
+	width: 400px;
+	height: 800px;
+	background-color: #FFE4E1;
+	color: #000000;
+	top: 67%;
+	left:50%;
+	position: absolute; /*กึ่งกลาง*/
+	transform: translate(-50%,-50%);/*กึ่งกลาง*/
+	box-sizing: border-box;/*บล็อกขนาด*/
+	border-radius: 5%;
+	padding: 55px 40px;/*สูง,กว้าง กล่องข้อความ*/
+	
+}
+
+h1
+{
+	margin: -25px;
+	padding: 0px 0 20px;
+	text-align: center;
+	font-size: 30px;
+	
+}
+
+h2
+{
+	margin: -20px;
+	padding: 5px 0 20px;
+	text-align: center;
+	font-size: 25px;
+	
+}
+
+
+
+.editbox p
+{
+	margin : 0; /*ระยะห่างบรรทัด*/
+	padding: 0;
+	margin-top: 30px;
+	font-weight: bold;	
+	font-size: 20px;
+}
+
+
+
+.editbox input[type="number"],[type="text"],[type="email"],[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #CD5C5C;
+	background : transparent;
+	outline : none;
+	height: 40px;
+	color: #778899;
+	font-size: 20px;
+
+}
+
+.editbox input
+{
+	width: 100%;
+    margin-bottom: 15px;
+	font-weight: bold;
+	font-family: "Nithan";
+}
+
+
+.editbox input[type="submit"]
+{
+	border:none;
+	outline: none;
+	height: 40px;
+	background: #4c4c4c;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.editbox input[type="submit"]:hover
+{
+	
+	cursor: pointer;
+	background: #CC9999;
+	color: #000;
+	
+}
+
+.editbox input[type="reset"]
+{
+	border:none;
+	outline: none;
+	height: 40px;
+	background: #4c4c4c;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.editbox input[type="reset"]:hover
+{
+	
+	cursor: pointer;
+	background: #CC9999;
+	color: #000;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

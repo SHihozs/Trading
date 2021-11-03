@@ -1,0 +1,95 @@
+body
+{
+	background: url("insert.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: "Nithan";
+}
+
+.forminsertbox
+{
+	width: 350px;
+	height:  640px;
+	background-color: #CCCC99;
+	color: #000000;
+	top: 40%;
+	left:50%;
+	position: absolute; /*กึ่งกลาง*/
+	transform: translate(-50%,-50%);/*กึ่งกลาง*/
+	box-sizing: border-box;/*บล็อกขนาด*/
+	border-radius: 5%;
+	padding: 45px 40px;/*สูง,กว้าง กล่องข้อความ*/
+	
+}
+
+h1
+{
+	margin: -20px;
+	padding: 5px 0 20px;
+	text-align: center;
+	font-size: 30px;
+	
+}
+
+
+.forminsertbox p
+{
+	margin : 5; /*ระยะห่างบรรทัด*/
+	padding: 5;
+	font-weight: bold;	
+}
+
+
+
+.forminsertbox input[type="text"],input[type="number"],input[type="file"],input[type="email"],input[type="tel"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background : transparent;
+	outline : none;
+	height: 20px;
+	color: #778899;
+	font-size: 16px;
+}
+
+
+.forminsertbox input
+{
+	width: 100%;
+    margin-bottom: 15px;
+	font-weight: bold;
+	font-family: "Nithan";
+}
+
+
+.forminsertbox input[type="submit"]
+{
+	border:none;
+	outline: none;
+	height: 40px;
+	background: #4c4c4c;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.forminsertbox input[type="reset"]
+{
+	border:none;
+	outline: none;
+	height: 40px;
+	background: #4c4c4c;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.forminsertbox input[type="reset"]:hover
+{
+	
+	cursor: pointer;
+	background: #7FFFD4;
+	color: #000;
+	
+}

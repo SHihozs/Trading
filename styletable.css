@@ -1,0 +1,52 @@
+
+body
+{
+	background: url("showdataa.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: "Nithan";
+	font-weight: bold;
+}
+.button p
+{
+	margin : 5; /*ระยะห่างบรรทัด*/
+	padding: 5;
+	font-weight: bold;	
+}
+
+.button input
+{
+	width: 30%;
+    margin-bottom: 15px;
+	font-weight: bold;
+	font-family: "Nithan";
+	display: block;
+}
+
+.button input[type="submit"]
+{
+	border:none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.button input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #FFFFFF;
+	color: #000;
+}
+
+h1
+{
+	margin: -20px;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 30px;
+}
+

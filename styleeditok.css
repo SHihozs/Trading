@@ -1,0 +1,69 @@
+
+body
+{
+	background: url("editok.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: "Nithan";
+	
+}
+
+.editokbox /*สี่เหลี่ยม*/
+{
+	width: 320px;
+	height:  165px;
+	background-color: #EEDD82;
+	color: #000000;
+	top: 50%;
+	left:50%;
+	position: absolute; /*กึ่งกลาง*/
+	transform: translate(-50%,-50%);/*กึ่งกลาง*/
+	box-sizing: border-box;/*บล็อกขนาด*/
+	border-radius: 5%;
+	padding: 60px 40px;/*สูง,กว้าง กล่องข้อความ*/
+	
+}
+
+h2
+{
+	margin: 0;
+	margin-top: -45px;
+	padding: 0px 0px 10px;/*จัดตำเเหน่งสามตัว*/
+	text-align: center;
+	
+}
+
+.editokbox input
+{
+	
+	width: 100%;
+	margin-bottom: 10px;
+	font-family: "Nithan";
+	font-weight: bold;
+	display: block;
+}
+
+.editokbox input[type="submit"]
+{
+	border:none;
+	outline: none;
+	height: 40px;
+	background: #4c4c4c;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+	display: block;
+	
+	
+	
+}
+
+.editokbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #E9967A;
+	color: #000;
+}
+
+

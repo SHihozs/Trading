@@ -1,0 +1,67 @@
+body
+{
+	background: url("checkinsert.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: "Nithan";
+}
+
+.adminbox
+{
+	width: 350px;
+	height: 170px;
+	background-color: #F19E57;
+	color: #fff;
+	top: 50%;
+	left:50%;
+	position: absolute; /*กึ่งกลาง*/
+	transform: translate(-50%,-50%);/*กึ่งกลาง*/
+	box-sizing: border-box;/*บล็อกขนาด*/
+	border-radius: 5%;
+	padding: 40px 40px;/*สูง,กว้าง กล่องข้อความ*/
+
+}
+.adminbox p
+{
+	margin : 5; /*ระยะห่างบรรทัด*/
+	padding: 5;
+	font-weight: bold;
+	margin-top: -4px;
+}
+
+
+.adminbox input
+{
+	width: 100%;
+    margin-bottom: 15px;
+	font-weight: bold;
+	font-family: "Nithan";
+}
+
+
+.adminbox input[type="submit"]
+{
+	border:none;
+	outline: none;
+	height: 40px;
+	background: #C7C52B;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.adminbox input[type="submit"]:hover
+{
+	
+	cursor: pointer;
+	background: #FFFC23;
+	color: #000;
+	
+}
+
+
+
+
+
+

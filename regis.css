@@ -1,0 +1,87 @@
+body
+{
+	background: url("regis.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: "Nithan";
+	font-weight: bold;
+}
+	.regisbox /*สี่เหลี่ยม*/
+{
+	width: 400px;
+	height:  725px;
+	background-color: #A8A8A8;
+	color: #000000;
+	top: 50%;
+	left:50%;
+	position: absolute; /*กึ่งกลาง*/
+	transform: translate(-50%,-50%);/*กึ่งกลาง*/
+	box-sizing: border-box;/*บล็อกขนาด*/
+	border-radius: 5%;
+	padding: 50px 40px;/*สูง,กว้าง กล่องข้อความ*/
+	
+}
+
+h1
+{
+	margin: -20px;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 30px;
+	
+}
+
+
+.regisbox p
+{
+	margin : 5; /*ระยะห่างบรรทัด*/
+	padding: 5;
+	font-weight: bold;	
+}
+
+
+.regisbox input
+{
+	width: 100%;
+    margin-bottom: 15px;
+	font-weight: bold;
+	font-family: "Nithan";
+}
+
+
+.regisbox input[type="submit"]
+{
+	border:none;
+	outline: none;
+	height: 40px;
+	background: #4c4c4c;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.regisbox input[type="submit"]:hover
+{
+	
+	cursor: pointer;
+	background: #FFFFFF;
+	color: #000;
+	
+}
+
+
+
+.regisbox input[type="text"],input[type="password"],input[type="email"],input[type="tel"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background : transparent;
+	outline : none;
+	height: 20px;
+	color: #fff;
+	font-size: 16px;
+}
+
+
+
