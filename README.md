@@ -17,6 +17,6 @@
   5) if you want to be *root* using *ID = root & PW = 123*
 
 # NOTE
- - IN MY CODE HAVE A THAI COMMEMT
- - I attached some example website but it's include thai and english language.
+ - IN MY CODE HAVE A THAI COMMENT
+ - I attached some example websites but it includes Thai and English language.
 
